@@ -48,3 +48,9 @@ fruits = "apples"
 to_print = f'There are {number} {fruits}.'
 
 print(to_print)
+
+# Input
+name = input("What is your name?\n")
+age = int(input("How old are you?\n"))
+
+print(f'Hello {name}, you are {age} years old', type(age))
